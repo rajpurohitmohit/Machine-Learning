@@ -8,13 +8,13 @@ Encode categorical variables (if any).
 Feature scaling (if required).
 Perform feature transformation if necessary.
 Model Selection & Training:
-
-
-
-
 Identify important features.
 Feature Selection & Engineering:
 Split the dataset into training and testing sets.
+
+
+
+
 Train at least two different models and compare their performance.
 Tune hyperparameters to improve results.
 Model Evaluation:
@@ -43,6 +43,7 @@ Results & Model Comparison
 Insights & Conclusion
 Future Scope & Possible Improvements
 6. Evaluation, Submission & Presentation
+
 This project will be considered as CA3.
 Submission and presentation dates:
 Group 1: 21st April 2025
