@@ -11,14 +11,14 @@ Model Selection & Training:
 Identify important features.
 Feature Selection & Engineering:
 Split the dataset into training and testing sets.
+Tune hyperparameters to improve results.
+Use appropriate evaluation metrics (e.g., accuracy, precision, recall, F1-score, RMSE, etc.).
 
 
 
 
 Train at least two different models and compare their performance.
-Tune hyperparameters to improve results.
 Model Evaluation:
-Use appropriate evaluation metrics (e.g., accuracy, precision, recall, F1-score, RMSE, etc.).
 Justify the selection of evaluation metrics.
 Insights & Conclusion:
 Interpret the results and provide real-world insights.
