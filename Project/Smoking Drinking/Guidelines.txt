@@ -40,17 +40,13 @@ Dataset Description (Source, Number of rows/columns, Target Variable)
 Data Preprocessing & Feature Engineering
 Model Selection & Training Process
 Results & Model Comparison
+Evaluation, Submission & Presentation
 Insights & Conclusion
 Future Scope & Possible Improvements
-6. Evaluation, Submission & Presentation
 
-This project will be considered as CA3.
-Submission and presentation dates:
-Group 1: 21st April 2025
-Group 2: 22nd April 2025
+
 Each group must submit:
 Jupyter Notebook (.ipynb) with proper markdown explanations.
 PowerPoint Presentation (.pptx) for evaluation.
 On the submission deadline, each group will present their project in front of the class.
 Ensure all group members are prepared for the presentation and Q&A session.
-
