@@ -1,0 +1,15 @@
+{
+	"Logistic Regression Predict Only": {
+	  "prefix": "logsticreg_predict",
+	  "body": [
+		"from sklearn.linear_model import LogisticRegression",
+		"",
+		"model = LogisticRegression()",
+		"model.fit(X_train, Y_train)",
+		"",
+		"Y_pred_train = model.predict(X_train)",
+		"Y_pred_test = model.predict(X_test)"
+	  ],
+	  "description": "Train logistic regression and predict on X_train and X_test"
+	}
+  }

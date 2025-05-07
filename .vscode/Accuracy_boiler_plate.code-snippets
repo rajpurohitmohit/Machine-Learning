@@ -1,0 +1,19 @@
+{
+	"Classification Report Evaluation": {
+	  "prefix": "Accuracy_report",
+	  "body": [
+		"from sklearn.metrics import accuracy_score, classification_report",
+		"",
+		"print(f\"\\nTraining Accuracy: {accuracy_score(Y_train, Y_pred_train) * 100:.2f}%\")",
+		"print(f\"Testing Accuracy: {accuracy_score(Y_test, Y_pred_test) * 100:.2f}%\")",
+		"",
+		"print(\"\\nClassification Report on Training Data:\")",
+		"print(classification_report(Y_train, Y_pred_train))",
+		"print(\"------------------------------------------------------\")",
+		"print(\"\\nClassification Report on Testing Data:\")",
+		"print(classification_report(Y_test, Y_pred_test))"
+	  ],
+	  "description": "Print training and testing accuracy and classification reports"
+	}
+  }
+  

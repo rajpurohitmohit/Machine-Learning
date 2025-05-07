@@ -1,0 +1,16 @@
+{
+	"R2 and MSE Evaluation": {
+	  "prefix": "r2_mse_score",
+	  "body": [
+		"from sklearn.metrics import r2_score, mean_squared_error",
+		"",
+		"print(f\"R² Score (Train): {r2_score(Y_train, train_predictions):.4f}\")",
+		"print(f\"R² Score (Test): {r2_score(Y_test, test_predictions):.4f}\")",
+		"",
+		"print(f\"MSE (Train): {mean_squared_error(Y_train, train_predictions):.4f}\")",
+		"print(f\"MSE (Test): {mean_squared_error(Y_test, test_predictions):.4f}\")"
+	  ],
+	  "description": "Evaluate R² Score and Mean Squared Error for training and testing data"
+	}
+  }
+  

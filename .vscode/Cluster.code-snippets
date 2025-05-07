@@ -1,0 +1,21 @@
+{
+	"Cluster Visualization and Silhouette Score": {
+	  "prefix": "cluster_viz_score",
+	  "body": [
+		"data['Cluster'] = clusters",
+		"",
+		"import seaborn as sns",
+		"import matplotlib.pyplot as plt",
+		"",
+		"sns.scatterplot(x=data[:, 0], y=data[:, 1], hue=clusters, palette='viridis')",
+		"plt.title('Cluster Visualization')",
+		"plt.show()",
+		"",
+		"from sklearn.metrics import silhouette_score",
+		"score = silhouette_score(data, clusters)",
+		"print(f'Silhouette Score: {score:.2f}')"
+	  ],
+	  "description": "Assign cluster labels, visualize using Seaborn, and compute Silhouette Score"
+	}
+  }
+  

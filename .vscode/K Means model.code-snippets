@@ -1,0 +1,13 @@
+{
+	"KMeans Clustering": {
+	  "prefix": "kmeans_cluster",
+	  "body": [
+		"from sklearn.cluster import KMeans",
+		"",
+		"kmeans = KMeans(n_clusters=3, random_state=42)",
+		"clusters = kmeans.fit_predict(data)"
+	  ],
+	  "description": "Perform KMeans clustering with 3 clusters"
+	}
+  }
+  

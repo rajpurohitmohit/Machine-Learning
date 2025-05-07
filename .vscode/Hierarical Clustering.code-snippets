@@ -1,0 +1,12 @@
+{
+	"Agglomerative Clustering": {
+	  "prefix": "hierarical_cluster",
+	  "body": [
+		"from sklearn.cluster import AgglomerativeClustering",
+		"",
+		"hc = AgglomerativeClustering(n_clusters=3)",
+		"clusters = hc.fit_predict(data)"
+	  ],
+	  "description": "Perform Agglomerative Clustering with 3 clusters"
+	}
+  }

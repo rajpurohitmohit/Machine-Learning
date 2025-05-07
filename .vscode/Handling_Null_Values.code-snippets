@@ -1,0 +1,10 @@
+{
+	"Fill Numeric NaNs with Mode": {
+	  "prefix": "Missing_Values_mean_numeric_boiler_plate",
+	  "body": [
+		"for i in data.select_dtypes(include='number').columns:",
+		"    data[i].fillna(data[i].mean()[0], inplace=True)"
+	  ],
+	  "description": "Fill missing values in numeric columns with their mode"
+	}
+  }

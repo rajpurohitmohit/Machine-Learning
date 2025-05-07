@@ -1,0 +1,14 @@
+{
+	"Standardization All Columns": {
+	  "prefix": "standardize_boiler_plate",
+	  "body": [
+		"from sklearn.preprocessing import StandardScaler",
+		"",
+		"scaler = StandardScaler()",
+		"X_train = scaler.fit_transform(X_train)",
+		"X_test = scaler.transform(X_test)"
+	  ],
+	  "description": "Standardize all columns in X_train and X_test"
+	}
+  }
+  

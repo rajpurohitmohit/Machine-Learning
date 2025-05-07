@@ -1,0 +1,11 @@
+{
+	"OneHotEncoding_getdummies": {
+	  "prefix": "onehot_encoder",
+	  "body": [
+		"# One-Hot Encoding using pd.get_dummies()",
+		"encoded_df = pd.get_dummies(data['Column_Name'], prefix='Column_Name', dtype='int64')",
+		"data = pd.concat([data.drop('Column_Name', axis=1), encoded_df], axis=1)"
+	  ],
+	  "description": "Perform one-hot encoding on a column using pandas get_dummies"
+	}
+  }

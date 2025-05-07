@@ -1,0 +1,16 @@
+{
+	"Outlier Treatment Boilerplate": {
+	  "prefix": "outlier_boiler_plate",
+	  "body": [
+		"for col in data.columns:",
+		"    q1 = data[col].quantile(0.25)",
+		"    q3 = data[col].quantile(0.75)",
+		"    iqr = q3 - q1",
+		"    lower = q1 - 1.5 * iqr",
+		"    upper = q3 + 1.5 * iqr",
+		"",
+		"    data[col] = data[col].clip(lower=lower, upper=upper)"
+	  ],
+	  "description": "Boilerplate code for treating outliers using IQR method"
+	}
+  }

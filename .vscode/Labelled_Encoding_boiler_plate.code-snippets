@@ -1,0 +1,13 @@
+{
+	"Label Encoding": {
+	  "prefix": "label_encoding_boiler_plate",
+	  "body": [
+		"from sklearn.preprocessing import LabelEncoder",
+		"",
+		"label = LabelEncoder()",
+		"data['column_name'] = label.fit_transform(data['column_name'])",
+	  ],
+	  "description": "Label encoding for categorical columns"
+	}
+  }
+  
